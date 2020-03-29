@@ -1,0 +1,294 @@
+.hidden{
+    display: none;
+}
+.main{
+    width:100%;
+
+}
+
+.logo{
+    background-color: #9a0d67 !important;
+    margin: 0 auto;
+    margin-top: 10px;
+    width:150px;
+    height:100px;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    margin-top: 20px;
+
+}
+
+.nav1{
+    background-color: #9a0d67 !important;
+    margin-right: 22px;
+    width:105px;
+    height:50px;
+}
+.nav2{
+    background-color: #9a0d67 !important;
+    margin-right: 22px;
+    width:105px;
+    height:50px;
+}
+.nav3{
+    background-color: #9a0d67 !important;
+    margin-right: 22px;
+    width:105px;
+    height:50px;
+}
+.nav4{
+    background-color: #9a0d67 !important;
+    margin-right:   22px;
+    width:105px;
+    height:50px;
+}
+.nav5{
+    background-color: #9a0d67 !important;
+    margin-right:   22px;
+    width:105px;
+    height:50px;
+}
+
+@media only screen and (max-width: 641px){
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo{
+    background-color: #9a0d67 !important;
+    margin: 0 auto;
+    width:150px;
+    height:100px;
+}
+
+.nav{
+    width:100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+
+
+}
+
+.nav1{
+    background-color: #9a0d67 !important;
+    margin-top: 2px;
+    width: 100%;
+
+
+}
+
+.nav2{
+    background-color: #9a0d67 !important;
+    margin-top: 2px;
+    width: 100%;
+
+
+}
+
+.nav3{
+    background-color: #9a0d67 !important;
+    margin-top: 2px;
+    width: 100%;
+
+}
+
+.nav4{
+    background-color: #9a0d67 !important;
+    margin-top: 2px;
+    width: 100%;
+
+
+}
+
+.nav5{
+    background-color: #9a0d67 !important;
+    margin-top: 2px;
+    width: 100%;
+
+}
+
+}
+
+
+.section2{
+    
+    width:100%;
+    margin-top: 25px;
+    height:398px;
+}
+
+.main_image_desc{
+    background-color: #9a0d67 !important;
+    width:30%;
+    height:397px;
+    float: left;
+}
+
+.main_image{
+    background-color: #9a0d67 !important;
+    width:68%;
+    height:397px;
+    float: right;
+}
+
+@media only screen and (max-width: 641px){
+
+.section2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.main_image_desc{
+    background-color: #9a0d67 !important;
+    width:100%;
+    height:200px;
+        margin-bottom: 30px;
+
+}
+
+.main_image{
+    background-color: #9a0d67 !important;
+    width:100%;
+    height:350px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+}
+
+
+
+.section3{
+    
+    width:100%;
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.promo_image1{
+    background-color: #9a0d67 !important;
+    width:25%;
+    height: 200px;
+    margin-right: 35px;
+
+}
+.promo_image2{
+    background-color: #9a0d67 !important;
+    width:25%;
+    height:200px;
+    margin-right: 35px;
+
+
+}
+.promo_image3{
+    background-color: #9a0d67 !important;
+    width:25%;
+    height:200px;
+    margin-right: 35px;
+
+
+}
+.promo_image4{
+    background-color: #9a0d67 !important;
+    width:25%;
+    height:200px;
+}
+
+
+@media only screen and (max-width: 641px){
+
+.section3{
+    display: grid;
+    width: auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    margin: 5px 5px;
+}
+
+.promo_image1{
+    background-color: #9a0d67 !important;
+    height:100%;
+    width: 100%;
+}
+
+.promo_image2{
+    background-color: #9a0d67 !important;
+    height:100%;
+    width: 100%;
+}
+
+.promo_image3{
+    background-color: #9a0d67 !important;
+    height:100%;
+    width: 100%;
+}
+
+.promo_image4{
+    background-color: #9a0d67 !important;
+    height:100%;
+    width: 100%;
+
+}
+
+
+}
+
+.section4{
+    width:100%;
+    height:398px;
+    margin-top: 10px;
+}
+
+.our-story{
+    background-color: #9a0d67 !important;
+    width:100%;
+    height:397px;
+
+}
+
+@media only screen and (max-width: 641px){
+
+.section4{
+    margin-top: 30px;
+}
+}
+
+.section5{
+    width:100%;
+    margin-top: 40px;
+    height:100px;
+}
+
+
+.footer{
+    background-color: #9a0d67 !important;
+    width:100%;
+    height:100px;
+
+}
+
+
+
